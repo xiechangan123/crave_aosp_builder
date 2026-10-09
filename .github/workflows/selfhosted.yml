@@ -76,7 +76,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: Set up environment
       run: |
@@ -125,7 +125,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check-out to repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: Check Credentials
       run: |
@@ -413,7 +413,7 @@ jobs:
         
       # Check-out in order to access the repository's files.
     - name: Check-out to repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
       # Set-up a spearate directory for the device.
     - name: Set-up workspace environment
